@@ -16,7 +16,7 @@ class sentTemperature {
         PreparedStatement preSql;
         ResultSet rs;
         String sqlStr = "insert into sample values(?,?)";
-        connection = DriverManager.getConnection ("jdbc:mysql://127.0.0.1:3306/test", "root", "74521");
+        connection = DriverManager.getConnection ("jdbc:mysql://127.0.0.1:3306/test", "root", "passwd");
         try {
             int i = 0;
             while (i < 20) {

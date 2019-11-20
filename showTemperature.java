@@ -10,7 +10,7 @@ public class showTemperature {
         Connection connection;
         Statement sql;
         ResultSet rs;
-        connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "74521");
+        connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "passwd");
         String sqlStr = "select * from sample";
         try {
             int i = 0;
